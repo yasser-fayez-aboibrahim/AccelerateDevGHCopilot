@@ -1,10 +1,12 @@
-# Library App
+﻿# AccelerateDevGHCopilot
 
-## Description
+## Library App
+
+### Description
 
 Library App is a modular application designed to manage library operations such as book loans, patron management, and inventory tracking. It is built using .NET and follows a clean architecture approach to ensure scalability and maintainability.
 
-## Project Structure
+### Project Structure
 
 - `AccelerateDevGHCopilot.sln` - Solution file for the project.
 - `src/`
@@ -32,7 +34,7 @@ Library App is a modular application designed to manage library operations such 
     - `ApplicationCore/` - Contains unit tests for the Application Core.
     - `UnitTests.csproj` - Project file for unit tests.
 
-## Key Classes and Interfaces
+### Key Classes and Interfaces
 
 - **Entities**
   - `Book` - Represents a book in the library.
@@ -46,7 +48,7 @@ Library App is a modular application designed to manage library operations such 
   - `LoanService` - Implements loan-related business logic.
   - `NotificationService` - Handles notifications for overdue loans.
 
-## Usage
+### Usage
 
 1. Clone the repository:
 
@@ -70,6 +72,6 @@ Library App is a modular application designed to manage library operations such 
    dotnet test tests/UnitTests/UnitTests.csproj
    ```
 
-## License
+### License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
